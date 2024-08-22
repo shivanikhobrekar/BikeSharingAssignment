@@ -49,15 +49,21 @@ day.csv have the following fields:
 	- registered: count of registered users
 	- cnt: count of total rental bikes including both casual and registered
 
-## Conclusions(Business Recomendation)
+## Business Recomendation
+- Days with low wind speeds tend to have higher bike rentals, presenting good business opportunities.
+- August and October are the best months for bike rentals, with the highest increases in demand.
+- Bike rentals are expected to grow each year.
+- Summer and winter see higher bike rentals, making these seasons ideal for hosting events or running advertisements.
+- January experiences a decline in bike rentals, making it a less favorable time for promotions.
+- Rainy and cloudy conditions lead to a decrease in bike rentals.
 
 ## Result
 
 We achieved the following results:
 
-- Test Accuracy: 
-- RMSE : 
-- Mean Absolute Error :
+- Test Accuracy: 0.795
+- RMSE : 0.0986
+- Mean Absolute Error : 0.0746
 - Durbin-Watson value : 1.9896
 
 ## License
@@ -78,6 +84,10 @@ Use of this dataset in publications must be cited to the following publication:
 	author={Fanaee-T, Hadi and Gama, Joao},
 	pages={1-15}
 }
+
+## Acknowledgements
+
+This project was inspired by UpGrad IITB Programme as a case study for the Machine Learning and Artificial Intelligence course.
 
 ## Contact
 
